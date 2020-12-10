@@ -1,0 +1,211 @@
+:root{
+	--azul-1: #2761a8;
+	--azul-2: #5d98c1;
+}
+
+@font-face{
+	font-family: 'Agenda-Medium';
+	src: url("../fonts/Agenda Medium.TTF") format('TrueType');
+}
+@font-face{
+	font-family: 'Agenda-Bold';
+	src: url("../fonts/Agenda Bold.TTF") format('TrueType');
+}
+
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.fondo{
+	background-image: url("../img/mall.jpg");
+	background-size: cover;
+  	background-position: bottom center;
+	height: auto;
+  	width: auto;
+}
+
+.color_fondo{
+	background-color: var(--azul-2);
+}
+
+.mision{
+	background-image: url("../img/escaleras_varias.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	height: auto;
+	border: thin solid var(--azul-2);
+}
+
+.vision{
+	background-image: url("../img/escalera.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	height: auto;
+	border: thin solid var(--azul-2);
+}
+
+.oscuro{
+	height: auto;
+	background-color: rgba(0, 0, 0, 60%);
+}
+
+.centrar{
+	padding: 100px 0px;
+}
+
+.fondo-blanco{
+	display: inline-block;
+	width: auto;
+	background-color: rgba(255, 255, 255, 70%);
+}
+
+.fondo-blanco2{
+	height: auto;
+	background-color: rgba(255, 255, 255, 70%);
+	border: thin solid var(--azul-2);
+}
+
+.img-fondo{
+	width: 120px;
+	background-color: rgba(39, 97, 168, 70%);
+	border-radius: 500px;
+}
+
+.text-azul1{
+	color: #2761a8;
+}
+
+.text-azul2{
+	color: #545454;
+}
+
+.text-blanco{
+	color: white;
+}
+
+body{
+	font-family: "Agenda-Medium";
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font: "Agenda-Bold";
+	color: white;
+}
+
+a, p{
+	font-size: 18;
+}
+
+header{
+	background-color: var(--azul-1);
+}
+
+header a{	
+	color: white;
+	font: "Agenda-Medium";
+	font-size: 20px;
+	padding: auto; 
+}
+
+header imput{
+	margin-left: 100px;
+	color: var(--azul-1);
+}
+
+
+img{
+	padding: 10px;
+}
+.fondo{
+	background-image: url("../img/mall.jpg");
+	background-size: cover;
+  	background-position: bottom center;
+	height: auto;
+  	width: auto;
+	
+}
+
+section {
+	text-align: center;
+	padding: 25px;
+}
+
+#suscripciones h1{
+	text-align: center;
+	margin: 20px;
+	color: var(--azul-1);
+	font-size: 50px;
+	display: inline-block;
+	width: 600px;
+	background-color: rgba(255, 255, 255, 70%);
+}
+fondo{
+	color:#5d98c1
+}
+
+footer{
+	background-color: var(--azul-1);
+	color: #FFF;
+	text-align: center;
+	padding: 20px 0px;
+	
+}
+
+#servicios article{
+	margin-left: 50px;
+}
+
+#serivicos ul{
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	line-height: 50px;
+}
+
+.sublist{
+	padding-left: 60px;
+	font-size: 15px;
+}
+
+#serivicos .oscuro{
+	padding: 30px;
+	border: thin solid;
+}
+
+#inscribirse{
+	background-image: url("../img/escaleras_varias.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	height: 500px;
+	padding: 200px 0px;
+	margin-top: 5px;
+}
+
+#inscribirse .form-group{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+#inscribirse h1{
+	color: var(--azul-1);
+	font-size: 30px;
+	text-align: center;
+}
+
+.sus{
+	padding-top: 25px;
+	background-color: rgba(255, 255, 255, 70%);
+	width: 500px;
+	height: 150px;
+}
+
+#carouselExampleIndicators .oscuro{
+	padding: 200px 400px;
+}
